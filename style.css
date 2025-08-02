@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,html{
+    overflow-x: hidden;
+    background: linear-gradient(to bottom right, #e6f0fa, #f5fbff);
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    gap: 50vw;
+    padding: 20px;
+}
+
+.profile-info h1 {
+    margin: 0;
+    font-size: 50px;
+    color: #1a202c;
+}
+
+.profile-info p {
+    margin: 20px 0 0;
+    color: #4a5568;
+    font-size: 25px;
+}
+
+.profile-img{
+    height: 200px;
+    width: 200px;
+    background-color:#f0f4f8;
+    border-radius: 20px;
+    transform: translate(0,10px);
+    border: 1px #d7e6f5 solid;
+    box-shadow: 0px 0px 10px rgb(167, 207, 247);
+}
+
+#profile_img{
+    height:230px;
+    width: 200px;
+    transform: translate(0,-35px)
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.card1{
+    width: 400px;
+    height: 200px;
+    border: 1px rgb(167, 207, 247) solid;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(167, 207, 247);
+    background-color: rgba(192, 211, 230,0.3);
+}
+
+.card h3{
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.card2{
+    width: 400px;
+    height: 200px;
+    border: 1px rgb(167, 207, 247) solid;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(167, 207, 247);
+    background-color: rgba(192, 211, 230,0.3);
+}
+
+.card2 h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.skill {
+    margin-bottom: 15px;
+}
+
+.skill span {
+    display: inline-block;
+    width: 49%;
+    font-size: 14px;
+}
+
+.progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    height: 12px;
+    width: 100%;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.progress {
+    background-color: #3b82f6;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 90vw; 
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+#Project{
+    font-size: 20px;
+    margin-left: 50px;
+    border: 2px solid rgb(167, 207, 247);
+    display: inline-block;
+    padding: 20px;
+    height: 20px;
+    width: 150px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(167, 207, 247);
+    background-color: rgba(192, 211, 230,0.3);
+}
+
+.card3{
+    width: 300px;
+    height: 200px;
+    border: 1px rgb(167, 207, 247) solid;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(167, 207, 247);
+    background-color: rgba(192, 211, 230,0.3);
+}
+
+.card3 h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card4{
+    width: 300px;
+    height: 200px;
+    border: 1px rgb(167, 207, 247) solid;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(167, 207, 247);
+    background-color: rgba(192, 211, 230,0.3);
+}
+
+.card4 h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card5{
+    width: 300px;
+    height: 200px;
+    border: 1px rgb(167, 207, 247) solid;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(167, 207, 247);
+    background-color: rgba(192, 211, 230,0.3);
+}
+
+.card5 h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card6{
+    width: 300px;
+    height: 200px;
+    border: 1px rgb(167, 207, 247) solid;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(167, 207, 247);
+    background-color: rgba(192, 211, 230,0.3);
+}
+
+.card6 h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card7{
+    width: 300px;
+    height: 200px;
+    border: 1px rgb(167, 207, 247) solid;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(167, 207, 247);
+    background-color: rgba(192, 211, 230,0.3);
+}
+
+.card7 h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card8{
+    width: 300px;
+    height: 200px;
+    border: 1px rgb(167, 207, 247) solid;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(167, 207, 247);
+    background-color: rgba(192, 211, 230,0.3);
+}
+
+.card8 h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card9{
+    width: 300px;
+    height: 200px;
+    border: 1px rgb(167, 207, 247) solid;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(167, 207, 247);
+    background-color: rgba(192, 211, 230,0.3);
+}
+
+.card9 h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.cImage{
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(167, 207, 247);
+    margin-left: 90px;
+    margin-bottom: 10px;
+}
+
+#Skills{
+    font-size: 20px;
+    margin-left: 50px;
+    border: 2px solid rgb(167, 207, 247);
+    display: inline-block;
+    padding: 20px;
+    height: 20px;
+    max-width: 90vw;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(167, 207, 247);
+    background-color: rgba(192, 211, 230,0.3);
+}
+
+.additional-skill {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+    max-width: 90vw;
+}
+
+.card10 {
+    background-color: #f0f6fc;
+    border-radius: 20px;
+    padding: 20px;
+    width: 60%;
+    box-shadow: 0px 0px 10px rgb(167, 207, 247);
+}
+
+.card10 .skill {
+    margin-bottom: 15px;
+}
+
+#Contact{
+    font-size: 20px;
+    margin-left: 50px;
+    border: 2px solid rgb(167, 207, 247);
+    display: inline-block;
+    padding: 20px;
+    height: 20px;
+    width: 150px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(167, 207, 247);
+    background-color: rgba(192, 211, 230,0.3);
+}
+
+.contact{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+    max-width: 90vw;
+}
+
+.card11 {
+    background-color: #f0f6fc;
+    border-radius: 20px;
+    padding: 20px;
+    width: 60%;
+    box-shadow: 0px 0px 10px rgb(167, 207, 247);
+}
+
+footer {
+    background-color: #1a202c;
+    color: #f7fafc;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
